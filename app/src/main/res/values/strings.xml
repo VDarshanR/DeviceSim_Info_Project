@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sim</string>
+
+    <string name="sim_info">SIM Info</string>
+    <string name="sim_country_iso">Country:</string>
+    <string name="sim_operator_name">Operator:</string>
+    <string name="sim_operator_id">Operator ID:</string>
+    <string name="sim_state">SIM state:</string>
+    <string name="service_state">Service state:</string>
+    <string name="sim_roaming">Roaming:</string>
+
+    <string name="device_telephony">Device Telephony</string>
+
+    <string name="phone_type">Phone Type:</string>
+    <string name="world_phone">World phone:</string>
+    <string name="voice_capable">Voice capable:</string>
+    <string name="volte_capable">VoLTE capable:</string>
+    <string name="wifi_call">WiFi call avail.:</string>
+    <string name="video_call_av">Video call av.:</string>
+    <string name="video_call_en">Video call en.:</string>
+
+    <string name="device_info">Device Info</string>
+    <string name="android_version">Android:</string>
+    <string name="device_name">Model:</string>
+    <string name="device_hardware">Hardware:</string>
+    <string name="device_CPU">CPU arch:</string>
+    <string name="device_total_ram">RAM total:</string>
+    <string name="device_free_ram">RAM free:</string>
+    <string name="device_thres_ram">RAM thres:</string>
+    <string name="device_low_ram">RAM is low:</string>
+    <string name="device_battery">Battery:</string>
+
+    <string name="my_image_description">Add a new item</string>
+
+
+</resources>

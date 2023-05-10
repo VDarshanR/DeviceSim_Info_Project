@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sim_info"
+        android:textColor="#FF6200EE"
+        android:textStyle="bold"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/sim_country_iso_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="@string/sim_country_iso" />
+
+    <TextView
+        android:id="@+id/sim_operator_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:text="@string/sim_operator_name" />
+
+    <TextView
+        android:id="@+id/sim_operator_id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:text="@string/sim_operator_id" />
+
+    <TextView
+        android:id="@+id/sim_state_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:text="@string/sim_state" />
+
+    <TextView
+        android:id="@+id/service_state_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:text="@string/service_state" />
+
+    <TextView
+        android:id="@+id/sim_roaming_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:text="@string/sim_roaming"/>
+
+        <View
+            android:layout_width="412dp"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_marginTop="207dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/device_telephony"
+        android:layout_marginTop="210dp"
+        android:textColor="#FF6200EE"
+        android:textStyle="bold"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/phone_type_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:text="@string/phone_type" />
+
+    <TextView
+        android:id="@+id/world_phone_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        android:text="@string/world_phone" />
+
+    <TextView
+        android:id="@+id/voice_capable_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:text="@string/voice_capable" />
+
+    <TextView
+        android:id="@+id/volte_capable_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="330dp"
+        android:text="@string/volte_capable" />
+
+    <TextView
+        android:id="@+id/wifi_call_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="360dp"
+        android:text="@string/wifi_call" />
+
+    <TextView
+        android:id="@+id/video_call_av_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="390dp"
+        android:text="@string/video_call_av" />
+
+    <TextView
+        android:id="@+id/video_call_en_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="420dp"
+        android:text="@string/video_call_en" />
+
+        <View
+            android:layout_width="412dp"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:layout_marginTop="447dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/device_info"
+        android:layout_marginTop="450dp"
+        android:textColor="#FF6200EE"
+        android:textStyle="bold"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/device_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:text="@string/device_name" />
+
+    <TextView
+        android:id="@+id/android_version_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="510dp"
+        android:text="@string/android_version" />
+
+    <TextView
+        android:id="@+id/device_hardware_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="540dp"
+        android:text="@string/device_hardware" />
+
+    <TextView
+        android:id="@+id/device_arch_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="570dp"
+        android:text="@string/device_CPU" />
+
+    <TextView
+        android:id="@+id/total_ram_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:text="@string/device_total_ram" />
+
+    <TextView
+        android:id="@+id/available_ram_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="630dp"
+        android:text="@string/device_free_ram" />
+
+    <TextView
+        android:id="@+id/ram_threshold_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="660dp"
+        android:text="@string/device_thres_ram" />
+
+    <TextView
+        android:id="@+id/low_memory_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="690dp"
+        android:text="@string/device_low_ram" />
+
+    <TextView
+        android:id="@+id/battery_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="720dp"
+        android:text="@string/device_battery" />
+
+        <ImageButton
+            android:layout_marginTop="3dp"
+            android:id="@+id/reload_imagebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="347dp"
+            android:onClick="onRefreshClick"
+            android:contentDescription="@string/my_image_description"
+            android:src="@drawable/ic_refresh_copy"
+            android:background="@android:color/transparent"/>
+
+    </FrameLayout>
+
+</ScrollView>
+
+
